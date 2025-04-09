@@ -1,0 +1,108 @@
+/* Main container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light Theme (default) */
+.app-container {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+/* Dark Mode */
+.app-container.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #4a90e2;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar in Dark Mode */
+.app-container.dark .navbar {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Editor Section */
+.editor-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 80%;
+  height: 400px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  resize: vertical;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Dark mode textarea */
+.app-container.dark textarea {
+  background-color: #1e1e1e;
+  color: #fff;
+  border: 1px solid #333;
+}
+
+/* Typing indicator */
+.typing-indicator {
+  margin-top: 10px;
+  font-style: italic;
+  color: #666;
+}
+
+.app-container.dark .typing-indicator {
+  color: #aaa;
+}
+
+/* Footer */
+.footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 14px;
+}
+
+.app-container.dark .footer {
+  background-color: #1a1a1a;
+  color: #ccc;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  textarea {
+    width: 95%;
+    height: 300px;
+  }
+
+  .navbar {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+}
