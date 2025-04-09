@@ -44,6 +44,13 @@ A real-time collaborative document editor built using **React.js**, **Node.js**,
 
 ---
 
+### 🔧 1. Clone the Repository
+
+```bash
+git clone https://github.com/<your-username>/realtime-collab-editor.git
+cd realtime-collaborative-document-editor
+```
+
 ## 📢 Connect with Me
 [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)](https://github.com/Adnaan-dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jan-adnan-farooq-b216b7321/)
