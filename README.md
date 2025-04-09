@@ -17,9 +17,10 @@ A real-time collaborative document editor built using **React.js**, **Node.js**,
 
 
 ### First
-![Image](https://github.com/user-attachments/assets/e109938d-38c3-4c4e-aa3f-71f6582cd174)
-### Second
 ![Image](https://github.com/user-attachments/assets/ce299d5d-1289-4b47-b1e7-6dc3a94148f0)
+
+### Second
+![Image](https://github.com/user-attachments/assets/e109938d-38c3-4c4e-aa3f-71f6582cd174)
 
 ---
 
